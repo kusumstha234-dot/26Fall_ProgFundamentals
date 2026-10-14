@@ -1,0 +1,170 @@
+Python Café — Part 1 test record
+
+=== sample ===
+*** Python Café ***
+What's your name? Welcome to Python Café, Sam!
+Are you a rewards member? (yes/no) 
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): --- CAFÉ MENU ---
+espresso: $3.00
+latte: $4.50
+cappuccino: $4.25
+mocha: $5.00
+muffin: $2.50
+croissant: $3.25
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Added 2 latte to your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Added 1 muffin to your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Added 1 mocha to your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): --- YOUR ORDER ---
+latte: $4.50
+latte: $4.50
+muffin: $2.50
+mocha: $5.00
+Items: 4
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): Which item should I remove? Removed one muffin.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): Please choose a number from 1 to 5.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): ===== Python Café RECEIPT =====
+Customer: Sam
+latte: $4.50
+latte: $4.50
+mocha: $5.00
+Subtotal: $14.00
+Discount: -$1.40
+Tax: $1.01
+Total: $13.61
+Thanks for visiting, Sam!
+
+
+=== non_member ===
+*** Python Café ***
+What's your name? Welcome to Python Café, Alex!
+Are you a rewards member? (yes/no) 
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): Your order is empty. Please add something first.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? Sorry, that item is not on our menu.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Please enter a quantity of at least 1.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): Which item should I remove? That item is not in your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Added 5 mocha to your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): ===== Python Café RECEIPT =====
+Customer: Alex
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+Subtotal: $25.00
+Discount: -$1.25
+Tax: $1.90
+Total: $25.65
+Join our rewards club for member discounts!
+Thanks for visiting, Alex!
+
+
+=== member ===
+*** Python Café ***
+What's your name? Welcome to Python Café, Sam!
+Are you a rewards member? (yes/no) 
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): What would you like? How many? Added 5 mocha to your order.
+
+1. View menu
+2. Add an item
+3. Remove an item
+4. View my order
+5. Checkout
+Choose an option (1-5): ===== Python Café RECEIPT =====
+Customer: Sam
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+mocha: $5.00
+Subtotal: $25.00
+Discount: -$3.75
+Tax: $1.70
+Total: $22.95
+Thanks for visiting, Sam!
